@@ -1,5 +1,5 @@
 def handler(context, inputs):
-    """Set a name for a machine
+    """Set a new name for a machine
 
     :param inputs
     :param inputs.resourceNames: Contains the original name of the machine.

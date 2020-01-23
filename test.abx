@@ -1,0 +1,18 @@
+---
+exportVersion: "1"
+exportId: "8a7480ad6fd29f45016fd3b0cee8000d"
+name: "test"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  newName: "new-machine-name"
+  resourceNames:
+  - "machine-name"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+actionType: "SCRIPT"
+configuration:
+  const-providers:
+  - ""
+  const_azure-system_managed_identity: false
+memoryInMB: 150
